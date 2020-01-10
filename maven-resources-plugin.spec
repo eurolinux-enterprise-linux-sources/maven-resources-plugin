@@ -1,6 +1,6 @@
 Name:           maven-resources-plugin
 Version:        2.6
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Maven Resources Plugin
 
 Group:          Development/Libraries
@@ -62,6 +62,9 @@ API documentation for %{name}.
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.6-6
+- Mass rebuild 2013-12-27
+
 * Mon Aug 26 2013 Michal Srb <msrb@redhat.com> - 2.6-5
 - Migrate away from mvn-rpmbuild (Resolves: #997513)
 
